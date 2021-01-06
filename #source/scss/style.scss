@@ -1,0 +1,114 @@
+@import 'setting.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.container {
+    max-width:1100px;
+    margin:0 auto;
+}
+.logo {
+    max-width: 196px;
+}
+.hr {
+    width:105px;
+    height: 2px;
+    background-color: white;
+}
+.button{
+    background-color: rgba(0,0,0,0);
+    border:1px solid white;
+    max-width: 180px;
+    width:100%;
+    height: 45px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+.header {
+    position: relative;
+    max-width:1920px;
+    min-height: 1173px;
+    padding:160px 0 0 0;
+    background:url("/img/bg.png") center / cover  no-repeat ;
+    .header__logo {
+    margin:0 auto;
+    }
+    .header__title {
+        .header__h1 {
+            margin:155px auto 0;
+            text-align:center;
+            color:white;
+            font-size: 30px;
+            font-family: 'Lato', sans-serif;
+            word-spacing: 10px;
+            font-weight: 900;
+        }
+        
+    }
+    .header__text {
+        .header__p {
+            margin:20px auto 50px;
+            text-align:center;
+            color:white;
+            font-size: 25px;
+            font-family: 'Lato', sans-serif;
+            word-spacing: 10px;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+    .header__hr {
+        margin:0 auto 226px;
+    }
+    .header__button {
+        margin:0 auto 73px ;
+        text-align:center;
+        padding:9px 0;
+    }
+
+    .header__arrow {
+        width:16px;
+        height: 11px;
+        margin:0 auto;
+    }
+
+}
+
+@import 'media.scss';
+
+
+
+// .header {
+//     .container {
+//         max-width: 1200px;
+//         width: 100%;
+//         padding:30px 0 0 0;
+//         margin:0 0 0 80px;
+//         .menu {
+//             display: flex;
+//             justify-content: space-between;
+//             .link {
+//                 width:100px;
+//                 height: 30px;
+//                 background-color: green;
+//                 text-align:center;
+//                 padding:7px 0 0 0;
+//                 color:white;
+//                 font-family: sans-serif;
+
+
+//             }
+//         }
+//         .title {
+//             margin:50px 0 0 0;
+//             text-align:center;
+//             font-size:50px;
+//         }
+        
+// }
+// }
+// @media ( max-width:1200px ) {
+//     .header .container {
+//         max-width: 997px;
+
+//     }
+// }

@@ -1,0 +1,21 @@
+// @media (max-width:1200px) {
+//     .header {
+//         max-height: 100%;
+//     }
+// }
+@media (max-width:1100px) {
+    .container {
+        // background-color: black;
+        max-width: 997px;
+    }
+}
+@media (max-width:997px) {
+    .container {
+        max-width: 700px;
+    }
+}
+@media (max-width:700px) {
+    .container {
+        max-width: 490px;
+    }
+}
